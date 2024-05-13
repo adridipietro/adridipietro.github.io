@@ -1555,8 +1555,6 @@ input, select, textarea {
 			background-color: #333333;
 		}
 
-		button:hover { margin-top: -3px; }
-
 		button:active,
 		.button:active {
 			background-color: #444444;
@@ -1687,17 +1685,19 @@ input, select, textarea {
 			font-weight: 400;
 		}
 
-		.icon.solid:before, .fa.solid:before {
+		.icon.solid:before {
 			font-weight: 900;
 		}
 
-		.icon.brands:before, .fa.solid:before  {
+		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-		.icon:before, .fa.solid:before  {
+		.icon:before {
 			line-height: inherit;
 		}
+
+		.icon.brands:hover { margin-top: -3px; }
 
 		.icon > .label {
 			display: none;
