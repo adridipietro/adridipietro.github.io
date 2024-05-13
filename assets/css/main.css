@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Big+Shoulders+Text&family=Cinzel&family=Inter&family=Smokum&family=Syncopate:wght@700&family=Ultra&display=swap');
+
 
 /*
 	Astral by HTML5 UP
@@ -1325,7 +1327,7 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family:'Helvetica', sans-serif;
 		font-weight: 300;
 		color: #777777;
 		font-size: 20pt;
@@ -1370,11 +1372,13 @@ input, select, textarea {
 	}
 
 	h1 {
+		font-family: 'Big Shoulders Text';
 		font-size: 2.4em;
 		letter-spacing: -0.015em;
 	}
 
 	h2 {
+		font-family: 'Big Shoulders Text';
 		font-size: 1.8em;
 		letter-spacing: -0.015em;
 	}
