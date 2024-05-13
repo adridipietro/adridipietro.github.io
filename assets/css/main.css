@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Big+Shoulders+Text&family=Cinzel&family=Inter&family=Smokum&family=Syncopate:wght@700&family=Ultra&display=swap');
 
@@ -1782,7 +1781,7 @@ input, select, textarea {
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: #ffffff;
+			color: #fff7f7;
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
