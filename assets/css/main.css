@@ -1567,14 +1567,6 @@ input, select, textarea {
 			background-color: #777777;
 		}
 
-			input[type="button"].alt:hover,
-			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			button.alt:hover,
-			.button.alt:hover {
-				background-color: #888888;
-			}
-
 			input[type="button"].alt:active,
 			input[type="submit"].alt:active,
 			input[type="reset"].alt:active,
@@ -1673,13 +1665,13 @@ input, select, textarea {
 
 /* Icons */
 
-	.icon {
+	.icon, .fa {
 		text-decoration: none;
 		position: relative;
 		text-decoration: none;
 	}
 
-		.icon:before {
+		.icon:before, .fa.solid:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
@@ -1692,15 +1684,15 @@ input, select, textarea {
 			font-weight: 400;
 		}
 
-		.icon.solid:before {
+		.icon.solid:before, .fa.solid:before {
 			font-weight: 900;
 		}
 
-		.icon.brands:before {
+		.icon.brands:before, .fa.solid:before  {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-		.icon:before {
+		.icon:before, .fa.solid:before  {
 			line-height: inherit;
 		}
 
@@ -1786,14 +1778,6 @@ input, select, textarea {
 					border-top: solid 0.6em #222222;
 					border-left: solid 0.6em transparent;
 					border-right: solid 0.6em transparent;
-				}
-
-			#nav a:hover {
-				opacity: 1.0;
-			}
-
-				#nav a:hover span {
-					opacity: 1.0;
 				}
 
 			#nav a.active {
