@@ -4,10 +4,10 @@ Hello. Welcome to the repository of my personal and professional portfolio. Here
 
 ## CONTACT
 
-Please feel free to contact me via:
+Please feel free to contact me:
 
-* Email: adrianadipietro4@gmail.com
-* [LinkedIn](http://linkedin.com/adriana-dipietro)
+* via email @ adrianadipietro4@gmail.com
+* via direct message on [LinkedIn](http://linkedin.com/adriana-dipietro)
 
 ## CONTRIBUTING + LICENSING
 
