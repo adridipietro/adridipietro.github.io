@@ -1697,8 +1697,6 @@ input, select, textarea {
 			line-height: inherit;
 		}
 
-		.icon:hover { margin-top: -3px; }
-
 		.icon > .label {
 			display: none;
 		}
@@ -1714,7 +1712,7 @@ input, select, textarea {
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: #d6c4c4;
+			color: #907e7e;
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
@@ -1736,6 +1734,8 @@ input, select, textarea {
 				font-size: 0.8em;
 			}
 
+			#nav a:hover { margin-top: -3px; }
+
 			#nav a:after {
 				content: '';
 				display: block;
@@ -1756,7 +1756,7 @@ input, select, textarea {
 				display: block;
 				position: absolute;
 				background: #222222;
-				color: #ffffff;
+				color: #907e7e;
 				top: -2.75em;
 				font-size: 0.3em;
 				height: 2.25em;
