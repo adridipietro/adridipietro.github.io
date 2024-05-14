@@ -1732,6 +1732,8 @@ input, select, textarea {
 				font-size: 0.8em;
 			}
 
+			#nav a:hover { margin-top: -3px; }
+
 			#nav a:after {
 				content: '';
 				display: block;
@@ -1748,7 +1750,7 @@ input, select, textarea {
 				transition: border-bottom-width .25s ease-in-out;
 			}
 
-			#nav a span {
+			/* #nav a span {
 				display: block;
 				position: absolute;
 				color: #907e7e;
@@ -1764,8 +1766,8 @@ input, select, textarea {
 				transition: opacity .25s ease-in-out;
 				width: 5.5em;
 				margin-left: -2.75em;
-			}
-
+			} */
+/* 
 				#nav a span:after {
 					content: '';
 					display: block;
@@ -1776,14 +1778,14 @@ input, select, textarea {
 					border-top: solid 0.6em #222222;
 					border-left: solid 0.6em transparent;
 					border-right: solid 0.6em transparent;
-				}
+				} */
 
-				#nav a span:hover {
+				/* #nav a span:hover {
 					-webkit-transition: all .2s linear;
 					-o-transition: all .2s linear;
 					-moz-transition: all .2s linear;
 					transition: all .2s linear;
-				}
+				} */
 
 			#nav a.active {
 				opacity: 1.0;
@@ -1794,11 +1796,9 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 980px) {
-
 			#nav a span {
 				display: none;
 			}
-
 		}
 
 /* Wrapper */
@@ -1825,10 +1825,10 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		-moz-transition: opacity 1s ease-in-out;
+		/* -moz-transition: opacity 1s ease-in-out;
 		-webkit-transition: opacity 1s ease-in-out;
 		-ms-transition: opacity 1s ease-in-out;
-		transition: opacity 1s ease-in-out;
+		transition: opacity 1s ease-in-out; */
 	}
 
 		body.is-preload #wrapper {
@@ -2088,7 +2088,7 @@ input, select, textarea {
 			transition: color .25s ease-in-out;
 		}
 
-			#footer a:hover {
+			#footer a:hover, li:hover {
 				color: white;
 			}
 
