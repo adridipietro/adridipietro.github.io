@@ -9,6 +9,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Colors: #7a6e6e, */
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -72,11 +74,6 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-}
-
-article p {
-	/* font-family: "Playfair Display", serif; */
-	font-size: 0.75em;
 }
 
 /* Row */
@@ -1332,9 +1329,9 @@ article p {
 		}
 
 	body, input, textarea, select {
-		font-family: "Playfair Display", sans-serif;
+		font-family: "Karla", sans-serif;
 		font-weight: 300;
-		color: #777777;
+		color: #7a6e6e;
 		font-size: 20pt;
 		line-height: 1.75em;
 	}
@@ -2034,7 +2031,7 @@ article p {
 
 					#main > .panel.intro header p {
 						letter-spacing: -0.015em;
-						font-size: 1.25em;
+						font-size: 0.75em;
 						margin: 0.25em 0 0 0;
 					}
 
