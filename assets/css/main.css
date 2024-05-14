@@ -74,6 +74,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+article p {
+	font-family: "Playfair Display", serif;;
+	font-size: 1.0em;
+}
+
 /* Row */
 
 	.row {
