@@ -1913,7 +1913,7 @@ input, select, textarea {
 				display: -webkit-flex;
 				display: -ms-flex;
 				display: flex;
-				background-color: #d6c4c4;
+				background-color: #ffffff;
 				-moz-flex-direction: row;
 				-webkit-flex-direction: row;
 				-ms-flex-direction: row;
@@ -1975,8 +1975,7 @@ input, select, textarea {
 						margin-top: -1.375em;
 						width: 2.75em;
 						height: 2.75em;
-						background: #000000;
-						background: rgba(0, 0, 0, 0.75);
+						background: #a28888;
 						color: #ffffff;
 						text-align: center;
 						line-height: 2.75em;
