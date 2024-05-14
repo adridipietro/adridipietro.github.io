@@ -75,8 +75,8 @@ input, select, textarea {
 }
 
 article p {
-	font-family: "Playfair Display", serif;;
-	font-size: 1.0em;
+	/* font-family: "Playfair Display", serif; */
+	font-size: 0.75em;
 }
 
 /* Row */
@@ -1332,7 +1332,7 @@ article p {
 		}
 
 	body, input, textarea, select {
-		font-family: "Karla", sans-serif;
+		font-family: "Playfair Display", sans-serif;
 		font-weight: 300;
 		color: #777777;
 		font-size: 20pt;
